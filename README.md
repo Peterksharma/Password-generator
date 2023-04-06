@@ -4,9 +4,9 @@
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Languages Used](#languages-used)
-3. [The Tast](#the-task)
+3. [The Task](#the-task)
 3. [How to Install](#how-to-install)
-4. [How to use the Project](#how-to-use-the-project)
+4. [Developer Notes](#developer-notes)
 5. [Screenshots](#screenshots)
 6. [Links](#links)
 7. [Acknowledgements](#acknowledgements)
@@ -23,25 +23,22 @@ Before you begin, ensure you have met the following requirements:
 
 ## Languages Used
 
-Javascript
+- Javascript
+
 ---
 
 ## The Task
 
-The task for the week: "This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes."
+- The task for the week: "This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes."
 
-#### Acceptance Criteria...
+### **Acceptance Criteria...**
 
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-
-|<span style="color:darkgreen;">**I Want...**</span>                 |<span style="color:darkgreen;">**So that...**</span>                                 |
+|<span style="color:lightgreen;">**I Want...**</span>                 |<span style="color:lightgreen;">**So that...**</span>                                 |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 |to randomly generate a password that meets certain criteria         | I can create a strong password that provides greater security                       |
 
 
-|<span style="color:darkred;">**When...**</span>                         |<span style="color:darkred;">**Then...**</span>                                   |
+|<span style="color:red;">**When...**</span>                         |<span style="color:red;">**Then...**</span>                                   |
 |----------------------------------------------------------------------|--------------------------------------------------------------                      |
 | I click the button to generate a password                            | I am presented with a series of prompts for password criteria                      |
 | Prompted for password criteria                                       | I select which criteria to include in the password                                 |
@@ -65,54 +62,25 @@ SO THAT I can create a strong password that provides greater security
 - [VS Code](https://code.visualstudio.com/docs/setup/setup-overview): "Visual Studio Code, also commonly referred to as VS Code, is a source-code editor made by Microsoft with the Electron Framework, for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git." -Wiki
 - [Google Chrome](https://support.google.com/chrome/answer/95346?hl=en&co=GENIE.Platform%3DDesktop): "Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser." -Wiki
 --- 
-## How to Use the Project
+## Developer Notes
 
   This project is a digital resume used to contact me, show applications projects that I've built, and provide my work history. 
 
 ---
 
 ## Screenshots
-![Screenshot of Website](./assets/images/screenshot.png)
+![Screenshot of Website](./assets/screenshot.png)
 
 ---
 
 ## Links
-- 
+- Deployed Site
 
 --- 
 
 ## Acknowledgements
 
-- My GF for putting up with me.
+- My GF for putting up with how much time I spend on school.
 - EdX for the screenshot.
-
-
-
-3 JavaScript: Password Generator
-Your Task
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
-
-The password can include special characters. If you’re unfamiliar with these, see this list of password special characters from the OWASP Foundation.
-
-User Story
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-Acceptance Criteria
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
 
 
