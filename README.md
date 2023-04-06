@@ -64,7 +64,7 @@ Before you begin, ensure you have met the following requirements:
 --- 
 ## Developer Notes
 
-  This project is a digital resume used to contact me, show applications projects that I've built, and provide my work history. 
+  This project a big dive into funtions, how to call them, how to organize variables in JS, hoisting, equal to (and all variations), window alerts or confirms, else if statements, and for loops.  Funtions seem pretty straight forward now that I understand how to call them. 
 
 ---
 
@@ -74,7 +74,8 @@ Before you begin, ensure you have met the following requirements:
 ---
 
 ## Links
-- Deployed Site
+- [Github Repo](https://github.com/Peterksharma/Password-generator)
+- [Deployed Page](https://peterksharma.github.io/Password-generator/)
 
 --- 
 
