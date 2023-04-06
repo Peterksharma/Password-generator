@@ -71,6 +71,7 @@ Before you begin, ensure you have met the following requirements:
 ## Screenshots
 ![Screenshot of Website](./assets/screenshot.png)
 
+
 ---
 
 ## Links
