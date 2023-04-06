@@ -20,10 +20,10 @@ generateBtn.addEventListener("click", writePassword);
 
 //Password Characters Variables
 
-var alphabetLowerCaseLibrary = 'abcdefghijklmnopqrstuvwxyz';
-var alphabetUpperCaseLibrary = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-var numericOptionsLibrary = '0123456789';
-var symbolOptionsLibrary = '!@#$%^&*()_[]{}\|:;?/>.<,`~';
+var alphabetLowerCaseLibrary = 'abcdefghijklmnopqrstuvwxyz'; // Lower Case Library
+var alphabetUpperCaseLibrary = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';  // Upper Case Library
+var numericOptionsLibrary = '0123456789'; // Numeric Library
+var symbolOptionsLibrary = '!@#$%^&*()_[]{}\|:;?/>.<,`~';  // Symbol Library
 var charLibrary = '';
 console.log('Characters sets added')
 
@@ -33,13 +33,13 @@ console.log('Characters sets added')
 function passwordLength(minPasswordLength, maxPasswordLenth) {
   var lengthInt;
   while (true) {
-    //Canceling out of the prompt.
+    //Canceling out of the prompt and denies the password length if the user cancels out of the prompt.
     var length = prompt('How long do you want the password? (8 Char Min - 128 Char Max)');
     if (length === null) {
       alert('Exiting...');
       return null;
     }
-    //Password length denial from criteria not being met.
+    //Does not allow the user to continue until the criteria is met.
     lengthInt = parseInt(length); //converting the input to in an int to compare against criteria.
     if (isNaN(lengthInt) || lengthInt < 8 || lengthInt > 129) {
       alert('Length parameters not met. Try again');
@@ -48,7 +48,7 @@ function passwordLength(minPasswordLength, maxPasswordLenth) {
     }
   }
 //Letting you know the password length has been accepted
-  alert('Password Length has been chosen.');
+  alert('Password Length has been chosen.'); // Lets user know password length has been chosen.
   console.log('Added ' + lengthInt + ' characters to random generation.');
   return lengthInt;
 }
