@@ -118,10 +118,10 @@ function generatePassword() {
     return ""; // Return an empty string if the user cancelled the password length prompt
   }
 
-  lowerCaseLibrary();
-  upperCaseLibrary();
-  numericLibrary();
-  symbolLibrary();
+  lowerCaseLibrary(); //exevutes the lowerCaseLibrary function
+  upperCaseLibrary(); // executes the upperCaseLibrary function
+  numericLibrary(); // executes the numericLibrary function
+  symbolLibrary(); // symbolLibrary function
 
   if (charLibrary.length === 0) {
     alert('User error. You need to select at least one of the character options. Restarting password generator...'); // Alerts user theres an error, tells how to fix it and restarts password generator
